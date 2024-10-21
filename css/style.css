@@ -1,0 +1,66 @@
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, -apple-system, BlinkMacSystemFont,
+                'Trebuchet MS', 'Lucida Sans Unicode',
+                'Segoe UI', 'Sofia Sans Extra Condensed',
+                'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans',
+                'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                'Lucida Grande', 'Lucida Sans', Arial,
+                'Helvetica Neue',
+                'Lato', 'Roboto', 'Roboto Condensed',
+                sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #2b2b2b;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.site-header {
+  display: flex;
+  justify-content: center;
+}
+.container-free {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vmin;
+  padding: 2vmin;
+  width: 18vmin;
+  height: 18vmin;
+  border: 0.5vmin solid #477ffc;
+  border-radius: 2vmin;
+  /* background-image: url("../AnaheimQRcodeEN.svg"); */
+  background-size: 100% 100%;
+}
+
+
+
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 3px dotted navy; */
+}
+.main-title_subtitle {
+  padding-bottom: 2.3vmin;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2em;
+}
+
+.wrapper section div {
+  padding: 1.5vmin 0;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 560px) {
+}
+
